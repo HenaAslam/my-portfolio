@@ -1,8 +1,10 @@
 .content {
   padding-top: 20rem;
+  padding-bottom: 20rem;
 }
 @media (min-width: 767px) {
   .content {
-    padding-top: 0rem;
+    padding-top: 0rem !important;
+    padding-bottom: 5rem;
   }
 }
