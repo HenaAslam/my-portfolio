@@ -1,10 +1,12 @@
 import React from "react";
+import "../styles.css";
 
 const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white content "
+      //   style={{ paddingTop: "20rem" }}
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -13,7 +15,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
+        <p className="text-xl mt-5">
           As a full stack developer, my primary focus is on creating innovative
           solutions that meet the unique needs of clients. I'm passionate about
           building web applications from the ground up, using a wide range of
