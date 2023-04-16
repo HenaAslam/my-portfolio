@@ -56,7 +56,7 @@ const Timeline = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              date="2021 - 2022"
+              date="2021 Nov- 2022 March"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<MdSchool />}
             >
@@ -69,7 +69,7 @@ const Timeline = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
-              date="2020-2021"
+              date="2020 July-2021 Jan"
               iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
               icon={<MdWork />}
             >
