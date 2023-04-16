@@ -12,34 +12,42 @@ const Projects = () => {
     {
       id: 1,
       src: linkedin,
+      technologies: ["react", "redux", "bootstrap"],
     },
     {
       id: 2,
       src: linkedin,
+      technologies: ["react", "redux", "bootstrap"],
     },
     {
       id: 3,
       src: linkedin,
+      technologies: ["react", "redux", "bootstrap"],
     },
     {
       id: 4,
       src: linkedin,
+      technologies: ["react", "redux", "bootstrap"],
     },
     {
       id: 5,
       src: linkedin,
+      technologies: ["react", "redux", "bootstrap"],
     },
     {
       id: 6,
       src: linkedin,
+      technologies: ["react", "redux", "bootstrap"],
     },
     {
       id: 7,
       src: linkedin,
+      technologies: ["react", "redux", "bootstrap"],
     },
     {
       id: 8,
       src: linkedin,
+      technologies: ["react", "redux", "bootstrap"],
     },
   ];
   return (
@@ -54,15 +62,40 @@ const Projects = () => {
           </p>
           <p className="py-6 text-2xl font-bold">Somethings I've built...</p>
         </div>
+
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, technologies }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
-              <div className="flex items-center justify-center"></div>
+
+              {/* <div className="flex items-center justify-evenly px-1">
+                {technologies.map((tech) => (
+                  <div className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-cyan-800 rounded">
+                    {tech}
+                  </div>
+                ))}
+              </div> */}
+              <div className="grid sm:grid-cols-3 md:grid-cols-3  gap-0 ">
+                <button className=" m-4 duration-200 hover:scale-105 bg-cyan-950 rounded ">
+                  Demo
+                </button>
+                <button className=" m-4 duration-200 hover:scale-105 bg-cyan-950 rounded">
+                  Code
+                </button>
+                <button className=" m-4 duration-200 hover:scale-105 bg-cyan-950 rounded">
+                  Code
+                </button>
+                <button className=" m-4 duration-200 hover:scale-105 bg-cyan-950 rounded ">
+                  Code
+                </button>
+                <button className=" m-4 duration-200 hover:scale-105 bg-cyan-950 rounded">
+                  Code
+                </button>
+              </div>
             </div>
           ))}
         </div>
