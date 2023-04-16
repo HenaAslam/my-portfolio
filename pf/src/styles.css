@@ -1,5 +1,5 @@
 .content {
-  padding-top: 30rem;
+  padding-top: 35rem;
   padding-bottom: 5rem;
 }
 @media (min-width: 767px) {
@@ -15,7 +15,18 @@
 }
 @media (max-width: 767px) {
   .port {
-    /* padding-top: -60rem !important; */
+    padding-top: 30rem !important;
     padding-bottom: 10rem;
+  }
+}
+
+.skill {
+  padding-top: 25rem;
+  padding-bottom: 30rem;
+}
+@media (max-width: 640px) {
+  .skill {
+    padding-top: 35rem !important;
+    padding-bottom: 40rem;
   }
 }

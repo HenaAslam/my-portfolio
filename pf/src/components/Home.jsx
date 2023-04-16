@@ -69,12 +69,10 @@ const Home = () => {
           </h2>
           <p
             className=" text-gray-500
-    py-4 max-w-md"
+    py-4 max-w-md text-justify"
           >
             A full stack developer based in Germany. My passion is building
-            simple, easy-to-use, user-friendly websites.I love to work on web
-            application using technologies like React, Express JS, MongoDB and
-            Node JS. Check out my projects!
+            simple, easy-to-use, user-friendly websites. Check out my projects!
           </p>
 
           <div>

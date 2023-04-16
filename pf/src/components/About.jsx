@@ -15,7 +15,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-5">
+        <p className="text-xl mt-5  text-justify">
           As a full stack developer, my primary focus is on creating innovative
           solutions that meet the unique needs of clients. I'm passionate about
           building web applications from the ground up, using a wide range of
@@ -26,7 +26,7 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl">
+        <p className="text-xl text-justify">
           I bring a unique combination of technical expertise, creative
           problem-solving skills, and a strong commitment to collaboration that
           sets me apart from other developers. I specialize in creating dynamic,
@@ -34,14 +34,17 @@ const About = () => {
           appealing. Whether it's a complex e-commerce platform or a simple
           landing page, I have the skills and expertise to turn your vision into
           a reality.I'm passionate about what I do and I'm always looking for
-          new challenges. My technical skills include a range of languages such
-          as JavaScript, TypeScript, HTML and CSS. I also have experience
-          working with various frameworks such as React, Express, Bootstrap and
-          Redux. Additionally, I have experience with database management using
-          SQL(postgreSQL) and NoSQL databases like MongoDB. From initial concept
-          to final deployment, I work tirelessly to ensure that your web
-          application is of the highest quality, meeting your exact
-          specifications and delivering the results you need.
+          new challenges.
+        </p>
+        <p className="text-xl pt-5 text-justify">
+          My technical skills include a range of languages such as JavaScript,
+          TypeScript, HTML and CSS. I also have experience working with various
+          frameworks such as React, Express, Bootstrap and Redux. Additionally,
+          I have experience with database management using SQL(postgreSQL) and
+          NoSQL databases like MongoDB. From initial concept to final
+          deployment, I work tirelessly to ensure that your web application is
+          of the highest quality, meeting your exact specifications and
+          delivering the results you need.
         </p>
       </div>
     </div>

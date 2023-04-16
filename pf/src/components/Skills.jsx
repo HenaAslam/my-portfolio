@@ -13,6 +13,7 @@ import redux from "../assets/redux.png";
 import postman from "../assets/postman.png";
 import mongo from "../assets/mongo.png";
 import postgresql from "../assets/postgresql.jpg";
+import "../styles.css";
 
 const Skills = () => {
   const techs = [
@@ -84,7 +85,7 @@ const Skills = () => {
       style: "shadow-gray-400",
     },
     {
-      id: 11,
+      id: 14,
       src: postman,
       title: "Postman",
       style: "shadow-orange-400",
@@ -106,7 +107,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen skill"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
