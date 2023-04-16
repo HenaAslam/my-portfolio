@@ -1,10 +1,21 @@
 .content {
   padding-top: 30rem;
-  padding-bottom: 30rem;
+  padding-bottom: 5rem;
 }
 @media (min-width: 767px) {
   .content {
     padding-top: 0rem !important;
     padding-bottom: 15rem;
+  }
+}
+
+.port {
+  padding-top: 15rem;
+  padding-bottom: 40rem;
+}
+@media (max-width: 767px) {
+  .port {
+    /* padding-top: -60rem !important; */
+    padding-bottom: 10rem;
   }
 }
