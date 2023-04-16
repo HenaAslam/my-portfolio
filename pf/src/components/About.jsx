@@ -33,8 +33,7 @@ const About = () => {
           responsive interfaces that are both user-friendly and visually
           appealing. Whether it's a complex e-commerce platform or a simple
           landing page, I have the skills and expertise to turn your vision into
-          a reality.I'm passionate about what I do and I'm always looking for
-          new challenges.
+          a reality.
         </p>
         <p className="text-xl pt-5 text-justify">
           My technical skills include a range of languages such as JavaScript,

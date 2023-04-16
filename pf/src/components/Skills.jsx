@@ -13,6 +13,11 @@ import redux from "../assets/redux.png";
 import postman from "../assets/postman.png";
 import mongo from "../assets/mongo.png";
 import postgresql from "../assets/postgresql.jpg";
+// import cloudinary from "../assets/cloudinary.jpg";
+import passportjs from "../assets/passportjs.png";
+import sequelize from "../assets/sequelize-logo.png";
+import jest from "../assets/jest.png";
+import socketio from "../assets/socketio.jpg";
 import "../styles.css";
 
 const Skills = () => {
@@ -101,6 +106,30 @@ const Skills = () => {
       src: postgresql,
       title: "postgreSQL",
       style: "shadow-blue-400",
+    },
+    {
+      id: 15,
+      src: passportjs,
+      title: "Passport (JWT and OAuth)",
+      style: "shadow-green-400",
+    },
+    {
+      id: 16,
+      src: sequelize,
+      title: "Sequelize",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 17,
+      src: jest,
+      title: "Jest",
+      style: "shadow-red-400",
+    },
+    {
+      id: 18,
+      src: socketio,
+      title: "Socket.io",
+      style: "shadow-gray-400",
     },
   ];
 
