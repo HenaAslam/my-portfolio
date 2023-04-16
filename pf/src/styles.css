@@ -4,13 +4,13 @@
 }
 @media (min-width: 767px) {
   .content {
-    padding-top: 0rem !important;
+    padding-top: 6rem !important;
     padding-bottom: 20rem;
   }
 }
 
 .port {
-  padding-top: 15rem;
+  padding-top: 18rem;
   padding-bottom: 40rem;
 }
 @media (max-width: 767px) {
@@ -21,12 +21,12 @@
 }
 
 .skill {
-  padding-top: 25rem;
+  padding-top: 35rem;
   padding-bottom: 30rem;
 }
 @media (max-width: 640px) {
   .skill {
-    padding-top: 35rem !important;
+    padding-top: 45rem !important;
     padding-bottom: 40rem;
   }
 }
