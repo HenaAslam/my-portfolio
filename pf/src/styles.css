@@ -22,11 +22,21 @@
 
 .skill {
   padding-top: 35rem;
-  padding-bottom: 30rem;
+  padding-bottom: 40rem;
 }
 @media (max-width: 640px) {
   .skill {
     padding-top: 45rem !important;
     padding-bottom: 40rem;
+  }
+}
+
+.time {
+  padding-top: 52rem;
+  padding-bottom: 55rem;
+}
+@media (max-width: 640px) {
+  .time {
+    padding-top: 60rem !important;
   }
 }
