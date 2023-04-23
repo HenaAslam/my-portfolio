@@ -40,7 +40,12 @@
     padding-top: 60rem !important;
   }
 }
-
+.cert {
+  padding-bottom: 0px !important;
+}
+.con {
+  padding-top: 0px !important;
+}
 .carousel-item {
   padding: 0 10px;
 }
