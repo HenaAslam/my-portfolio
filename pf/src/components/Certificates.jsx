@@ -14,7 +14,6 @@ import BE_4 from "../assets/certificates/BE_4.jpg";
 import BE_5 from "../assets/certificates/BE_5.jpg";
 import BE_6 from "../assets/certificates/BE_6.jpg";
 import degree from "../assets/certificates/Hena Degree certificate.jpg";
-import { Dots } from "react-multi-carousel";
 
 import cropped from "../assets/certificates/cropped.jpg";
 import "../styles.css";
@@ -142,7 +141,7 @@ const Certificates = () => {
             customTransition="all .5"
             transitionDuration={500}
             containerClass="carousel-container"
-            removeArrowOnDeviceType={["tablet", "mobile"]}
+            removeArrowOnDeviceType={["mobile"]}
             // deviceType={this.props.deviceType}
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"

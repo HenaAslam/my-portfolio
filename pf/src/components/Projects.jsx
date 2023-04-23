@@ -9,6 +9,8 @@ import weather from "../assets/portfolio/weather-app.png";
 import portfolio from "../assets/portfolio/portfolio.png";
 import linkedinhome from "../assets/portfolio/linkedinhome.png";
 import netflix from "../assets/portfolio/netflix2.png";
+import whatsapp from "../assets/portfolio/whatsapp.png";
+import whatsappbe from "../assets/portfolio/whatsapp-be.png";
 import "../styles.css";
 const Projects = () => {
   const portfolios = [
@@ -34,6 +36,13 @@ const Projects = () => {
       link: "https://github.com/HenaAslam/weather-app",
     },
     {
+      id: 989,
+      src: whatsapp,
+      project: "WhatsApp Frontend",
+      technologies: ["Typescript", "socketio", "Redux", "React"],
+      link: "https://github.com/HenaAslam/whatsapp-fe",
+    },
+    {
       id: 4,
       src: spotify,
       project: "Spotify (Javascript)",
@@ -46,6 +55,13 @@ const Projects = () => {
       project: "Spotify (React)",
       technologies: ["React", "Redux", "API", "Bootstrap"],
       link: "https://github.com/HenaAslam/spotify-react-redux",
+    },
+    {
+      id: 999,
+      src: whatsappbe,
+      project: "WhatsApp Backend",
+      technologies: ["Typescript", "socketio", "JWT", "OAuth"],
+      link: "https://github.com/HenaAslam/Whatsapp-BE",
     },
     {
       id: 6,
