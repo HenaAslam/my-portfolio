@@ -130,7 +130,7 @@ const Certificates = () => {
         </div>
         <div className="pt-5">
           <Carousel
-            swipeable={false}
+            swipeable={true}
             draggable={false}
             showDots={true}
             responsive={responsive}
