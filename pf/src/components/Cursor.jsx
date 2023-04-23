@@ -8,10 +8,16 @@ function Cursor() {
       setPosition({ x: event.clientX, y: event.clientY });
     };
 
+    const handleTouchMove = (event) => {
+      setPosition({ x: event.touches[0].clientX, y: event.touches[0].clientY });
+    };
+
     document.addEventListener("mousemove", handleMouseMove);
+    document.addEventListener("touchmove", handleTouchMove);
 
     return () => {
       document.removeEventListener("mousemove", handleMouseMove);
+      document.removeEventListener("touchmove", handleTouchMove);
     };
   }, []);
 
