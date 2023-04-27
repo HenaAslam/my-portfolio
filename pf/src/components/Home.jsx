@@ -1,9 +1,10 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaXingSquare } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -40,10 +41,10 @@ const Home = () => {
       id: 4,
       child: (
         <>
-          <FaInstagram size={30} />
+          <FaXingSquare size={30} />
         </>
       ),
-      href: "https://instagram.com/henomnom?igshid=YjNmNGQ3MDY=",
+      href: "https://www.xing.com/profile/Hena_Asslam/",
     },
     {
       id: 5,
