@@ -37,7 +37,7 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Instagram <FaXingSquare size={30} />
+          Xing <FaXingSquare size={30} />
         </>
       ),
       href: "https://www.xing.com/profile/Hena_Asslam/",
