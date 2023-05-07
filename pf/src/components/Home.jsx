@@ -53,7 +53,7 @@ const Home = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/my resume.pdf",
+      href: "/Resume-Hena Asslam.pdf",
       style: "rounded-br-md",
       download: true,
     },
