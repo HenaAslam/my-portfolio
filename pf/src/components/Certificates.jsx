@@ -14,6 +14,7 @@ import BE_4 from "../assets/certificates/BE_4.jpg";
 import BE_5 from "../assets/certificates/BE_5.jpg";
 import BE_6 from "../assets/certificates/BE_6.jpg";
 import degree from "../assets/certificates/Hena Degree certificate.jpg";
+import FS from "../assets/certificates/FS.jpg";
 
 import cropped from "../assets/certificates/cropped.jpg";
 import "../styles.css";
@@ -53,6 +54,10 @@ const Certificates = () => {
       id: 0,
 
       url: cropped,
+    },
+    {
+      id: 78,
+      url: FS,
     },
     {
       id: 1,
