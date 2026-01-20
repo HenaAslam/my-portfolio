@@ -19,13 +19,33 @@ const Timeline = () => {
         </div>
         <div className="pt-5 w-full ">
           <VerticalTimeline>
+              <VerticalTimelineElement
+              className="vertical-timeline-element--work text-gray-500"
+              contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  rgb(33, 150, 243)",
+              }}
+              date="2023 Jun - 2025 Oct"
+              iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+              icon={<MdOutlineWork />}
+            >
+              <h3 className="vertical-timeline-element-title font-bold">
+                Software Developer
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                SCHIFFL IT Service GmbH
+              </h4>
+              <p>
+              Developed full-stack web applications using TypeScript, React & PHP Symfony.
+              </p>
+            </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work text-gray-500"
               contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               contentArrowStyle={{
                 borderRight: "7px solid  rgb(33, 150, 243)",
               }}
-              date="2022 Nov - present"
+              date="2022 Nov - 2023 May"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<MdSchool />}
             >

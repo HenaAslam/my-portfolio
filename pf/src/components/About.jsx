@@ -38,7 +38,8 @@ const About = () => {
         <p className="text-xl pt-5 text-justify">
           My technical skills include a range of languages such as JavaScript,
           TypeScript, HTML and CSS. I also have experience working with various
-          frameworks such as React, Express, Bootstrap and Redux. Additionally,
+          frameworks such as React, Express, Bootstrap and Redux. On the backend, 
+          I have experience with PHP and Symfony. Additionally,
           I have experience with database management using SQL(postgreSQL) and
           NoSQL databases like MongoDB. From initial concept to final
           deployment, I work tirelessly to ensure that your web application is

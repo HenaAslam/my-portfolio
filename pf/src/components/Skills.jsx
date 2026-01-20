@@ -16,8 +16,8 @@ import postgresql from "../assets/postgresql.jpg";
 // import cloudinary from "../assets/cloudinary.jpg";
 import passportjs from "../assets/passportjs.png";
 import sequelize from "../assets/sequelize-logo.png";
-import jest from "../assets/jest.png";
 import socketio from "../assets/socketio.jpg";
+import symfony from "../assets/symfony.png"
 import "../styles.css";
 
 const Skills = () => {
@@ -121,8 +121,8 @@ const Skills = () => {
     },
     {
       id: 17,
-      src: jest,
-      title: "Jest",
+      src: symfony,
+      title: "Symfony",
       style: "shadow-red-400",
     },
     {
@@ -130,7 +130,7 @@ const Skills = () => {
       src: socketio,
       title: "Socket.io",
       style: "shadow-gray-400",
-    },
+    }
   ];
 
   return (
