@@ -39,27 +39,24 @@ const Timeline = () => {
               Developed full-stack web applications using TypeScript, React & PHP Symfony.
               </p>
             </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work text-gray-500"
-              contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-              contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)",
-              }}
-              date="2022 Nov - 2023 May"
+              <VerticalTimelineElement
+              className="vertical-timeline-element--education"
+              date="2021 Nov- 2022 March"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               icon={<MdSchool />}
             >
-              <h3 className="vertical-timeline-element-title font-bold">
-                Web Development BootCamp
+              <h3 className="vertical-timeline-element-title font-bold text-black">
+                  Web Development BootCamp
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">
-                EPICODE GLOBAL
+              <h4 className="vertical-timeline-element-subtitle text-black">
+               EPICODE GLOBAL
               </h4>
-              <p>
+              <p className="text-black">
                 Frontend Development using react, redux, bootstrap, html, css
                 and Backend Development using node.js, mongo, express.js
               </p>
             </VerticalTimelineElement>
+        
 
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
