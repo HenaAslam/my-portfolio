@@ -48,9 +48,9 @@ const Skills = () => {
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
+      src: symfony,
+      title: "PHP Symfony",
+      style: "shadow-red-400",
     },
     {
       id: 6,
@@ -121,8 +121,8 @@ const Skills = () => {
     },
     {
       id: 17,
-      src: symfony,
-      title: "Symfony",
+      src: tailwind,
+      title: "Tailwind",
       style: "shadow-red-400",
     },
     {
